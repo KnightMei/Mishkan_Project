@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head> <script type="text/javascript">
+	function showSeconds() { 
+           var s=60;
+           var m=60;
+           var h=24;
+           var seconds_in_one_day=h*m*s;
+           alert(seconds_in_one_day);
+          
+          var d=parseInt(prompt("Number of days","Please enter number of days"));
+           alert(seconds_in_one_day*d);
+           document.write("<h2>Number of seconds</h2>");
+           document.write("Number of seconds in "+d+" days is "+seconds_in_one_day*d);
+        }
+        </script></head>
+<body>
+<h1>Some Html Header</h1>
+<script type="text/javascript">
+            showSeconds();
+  </script>
+<p>some html paragraph </p>
+</body>
+
+</html>
